@@ -35,21 +35,12 @@ Presentation
 
     Image {
         id: background1
-        source: "1-welcometo.png"
+        source: "calamares-0.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
         fillMode: Image.Stretch
         anchors.fill: parent
-    	}
-
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "Welcome to"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
     	}
     }
 
@@ -60,7 +51,7 @@ Presentation
 
     Image {
         id: background2
-        source: "2-alci.png"
+        source: "calamares-1.png"
         width: parent.width; height: parent.height
         horizontalAlignment: Image.AlignCenter
         verticalAlignment: Image.AlignTop
@@ -68,14 +59,6 @@ Presentation
         anchors.fill: parent
     	}
 
-    Text {
-        anchors.horizontalCenter: background.horizontalCenter
-        anchors.top: background.bottom
-        text: "ALCI"
-        wrapMode: Text.WordWrap
-        width: presentation.width
-        horizontalAlignment: Text.Center
-    	}
     }
 
 
